@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context docBase="sqlTest" path="/sqlTest" reloadable="true">
+	<Resource
+		name="jdbc/sqlTest"
+	    auth="Container"
+	    type="javax.sql.DataSource"
+	    username="postgres"
+	    password="*************************************"
+	    driverClassName="org.postgresql.Driver"
+	    url="jdbc:postgresql://localhost:5432/postgres?currentSchema=daopractice"
+	    maxWait="5000"
+	    maxActive="10"
+	    maxIdle="2"
+	    validationQuery="SELECT 1" />
+</Context>
